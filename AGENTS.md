@@ -32,6 +32,13 @@ Do not include:
 - secrets, tokens, credentials, private URLs, or local machine-specific paths unless
   they are necessary and safe to publish
 
+## Skill Sources
+
+- `skills/repomix-explorer`: sourced from the official Repomix repository,
+  `yamadashy/repomix`, path `skills/repomix-explorer`. Install/update with:
+  `npx skills add yamadashy/repomix --skill repomix-explorer --agent codex`.
+  Reference docs: https://repomix.com/guide/repomix-explorer-skill.
+
 ## Sync From Local Codex Skills
 
 From the repo root, copy a personal skill into `skills/`:
@@ -75,4 +82,3 @@ When using a skill from this repo:
 1. Copy it into `$HOME\.codex\skills`.
 2. Restart Codex so the skill registry refreshes.
 3. Trigger the skill by name or by making a request that matches its description.
-

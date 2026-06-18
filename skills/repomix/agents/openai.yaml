@@ -1,4 +1,0 @@
-interface:
-  display_name: "Repomix"
-  short_description: "Pack repositories for AI context"
-  default_prompt: "Use $repomix to pack this repository for AI review."
