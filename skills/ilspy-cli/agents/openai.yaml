@@ -1,0 +1,4 @@
+interface:
+  display_name: "ILSpy CLI"
+  short_description: "Decompile .NET assemblies with ilspycmd"
+  default_prompt: "Use $ilspy-cli to inspect this .NET assembly."

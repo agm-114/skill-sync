@@ -16,12 +16,10 @@ sg --help
 ast-grep --help
 ```
 
-If neither command exists, explain that ast-grep is not installed and suggest one of the official install paths:
+If neither command exists, explain that ast-grep is not installed and install it globally with pnpm:
 
 ```bash
-npm install --global @ast-grep/cli
-pip install ast-grep-cli
-cargo install ast-grep --locked
+pnpm add --global @ast-grep/cli
 ```
 
 ## One-off Search
